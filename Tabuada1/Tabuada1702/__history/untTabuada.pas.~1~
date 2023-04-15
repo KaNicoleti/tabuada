@@ -1,0 +1,27 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TfrmTabuada = class(TForm)
+    btnCalc: TBitBtn;
+    btnLimpar: TBitBtn;
+    btnFechar: TBitBtn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTabuada: TfrmTabuada;
+
+implementation
+
+{$R *.dfm}
+
+end.
